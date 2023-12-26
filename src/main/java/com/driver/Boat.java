@@ -5,7 +5,10 @@ public class Boat implements WaterVehicle{
     String name;
     int capacity;
 
-
+Boat(String name ,int capacity){
+    this.capacity=capacity;
+    this.name=name;
+}
 
 
     @Override
